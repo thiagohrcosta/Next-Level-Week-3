@@ -7,10 +7,11 @@ import OrphanagesMap from './pages/OprhanagesMap';
 function Routes(){
   return(
     <BrowserRouter>   
-      <Route path="/" exact component={Landing} />
-      <Route path="/app" component={OrphanagesMap} />
+      <Switch>
+        <Route path="/" exact component={Landing} />
+        <Route path="/app" component={OrphanagesMap} />
+      </Switch>
     </BrowserRouter>
-
   );
 }
 
