@@ -1,8 +1,10 @@
-import express from 'express';
+import express, { query } from 'express';
 
 const app = express();
 
-app.get('/', (request, response) => {
+app.use(express.json());
+
+app.get('/users', (request, response) => {
   return response.send({ message:'Hello World'})
 })
 
