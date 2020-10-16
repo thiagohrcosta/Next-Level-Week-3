@@ -1,0 +1,10 @@
+{
+  "id": 3,
+  "name": "Crianças felizes",
+  "latitude": -19.9205398,
+  "longitude": -43.9505016,
+  "about": "Sobre o orfanato",
+  "instructions": "Venha visitar",
+  "opening_hours": "Das 8h às 18h",
+  "open_on_weekends": false
+}
