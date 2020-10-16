@@ -1,13 +1,14 @@
 import express, { query } from 'express';
 
+import './database/connection';
+import routes from './routes';
+
 const app = express();
 
 app.use(express.json());
-
-app.get('/users', (request, response) => {
-  return response.send({ message:'Hello World'})
-})
+app.use(routes);
 
 app.listen(3333, () =>{
   console.log("Server running on port 3333.")
-})
+});
+
