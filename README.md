@@ -12,7 +12,7 @@
 ![enter image description here](https://github.com/thiagohrcosta/Next-Level-Week-3/blob/master/files/happyLogo.png?raw=true)
 
   
-## 🚀 Tecnologias
+## 🚀 Tecnologias utilizadas
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
